@@ -15,5 +15,9 @@
     "incstr": "^1.2.3",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.3"
+  },
+  "peerDependencies": {
+    "clean-css-loader": "^1.0.1",
+    "css-loader": "^0.28.11"
   }
 }

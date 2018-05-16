@@ -47,10 +47,10 @@ const getLocalIdent = (context, localIdentName, localName) => generateScopedName
 //endregion
 
 const cssLoaders = (before = [], options = {}) => {
-    const {modules, clean} = Object.assign({}, options, {
+    const {modules, clean} = Object.assign({}, {
         modules: false,
         clean: false
-    });
+    }, options);
     const loaders = [
         {
             loader: "css-loader",

@@ -1,0 +1,19 @@
+{
+  "name": "hungphongbk-webpack-build-utils",
+  "author": "Phong Truong Hung @hungphongbk",
+  "version": "1.0.0-dev",
+  "description": "Something very fuckin dummy",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "incstr": "^1.2.3",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}

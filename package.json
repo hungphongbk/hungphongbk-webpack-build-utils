@@ -19,5 +19,9 @@
   "peerDependencies": {
     "clean-css-loader": "^1.0.1",
     "css-loader": "^0.28.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hungphongbk/hungphongbk-webpack-build-utils.git"
   }
 }

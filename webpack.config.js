@@ -1,12 +1,12 @@
 const path = require('path');
 module.exports = {
-    mode: "none",
+    mode: "production",
     target: "node",
     entry: path.join(__dirname, 'src/index.js'),
     output: {
-        path: __dirname,
+        path: path.join(__dirname, 'dist'),
         filename: 'index.js',
-        libraryTarget: 'commonjs2'
+        libraryTarget: 'commonjs'
     },
     module: {
         rules: [

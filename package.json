@@ -4,6 +4,7 @@
   "version": "1.0.0-dev",
   "description": "Something very fuckin dummy",
   "main": "index.js",
+  "types": "index.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "webpack"
